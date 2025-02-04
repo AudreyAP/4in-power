@@ -444,7 +444,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sensors.kicad_pro",
+    "filename": "power.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -764,6 +764,126 @@
           "group_by": false,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PART NAME",
+          "name": "LCSC PART NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING TEMPERATURE",
+          "name": "OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GATE THRESHOLD VOLTAGE (VGS(TH)@ID)",
+          "name": "GATE THRESHOLD VOLTAGE (VGS(TH)@ID)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER DISSIPATION (PD)",
+          "name": "POWER DISSIPATION (PD)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INPUT CAPACITANCE (CISS@VDS)",
+          "name": "INPUT CAPACITANCE (CISS@VDS)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ADD INTO BOM",
+          "name": "ADD INTO BOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REVERSE TRANSFER CAPACITANCE (CRSS@VDS)",
+          "name": "REVERSE TRANSFER CAPACITANCE (CRSS@VDS)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB PART CLASS",
+          "name": "JLCPCB PART CLASS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER FOOTPRINT",
+          "name": "SUPPLIER FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART",
+          "name": "SUPPLIER PART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SYMBOL",
+          "name": "SYMBOL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART",
+          "name": "MANUFACTURER PART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOTAL GATE CHARGE (QG@VGS)",
+          "name": "TOTAL GATE CHARGE (QG@VGS)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TYPE",
+          "name": "TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTINUOUS DRAIN CURRENT (ID)",
+          "name": "CONTINUOUS DRAIN CURRENT (ID)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DRAIN SOURCE ON RESISTANCE (RDS(ON)@VGS,ID)",
+          "name": "DRAIN SOURCE ON RESISTANCE (RDS(ON)@VGS,ID)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DRAIN SOURCE VOLTAGE (VDSS)",
+          "name": "DRAIN SOURCE VOLTAGE (VDSS)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONVERT TO PCB",
+          "name": "CONVERT TO PCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE",
+          "name": "DEVICE",
           "show": false
         }
       ],

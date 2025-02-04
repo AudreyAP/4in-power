@@ -1991,6 +1991,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -2731,6 +2867,463 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "powermodule:AO3400"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q?"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231109/50AB4FB4D66E55864F9B8D027B723C9A.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SYMBOL" "AO3400A_C347475"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "DEVICE" "AO3400A_C347475"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC PART NAME" "1个N沟道 耐压:30V 电流:5.8A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER PART" "C347475"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "UMW(友台半导体)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER PART" "AO3400A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER FOOTPRINT" "SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB PART CLASS" "Extended Part"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ADD INTO BOM" "yes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "CONVERT TO PCB" "yes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "TYPE" "1 N-Channel"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "DRAIN SOURCE VOLTAGE (VDSS)" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "CONTINUOUS DRAIN CURRENT (ID)" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "DRAIN SOURCE ON RESISTANCE (RDS(ON)@VGS,ID)" "28mΩ@10V,5.8A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "POWER DISSIPATION (PD)" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "GATE THRESHOLD VOLTAGE (VGS(TH)@ID)" "1.4V@250uA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "TOTAL GATE CHARGE (QG@VGS)" "12nC@10V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "INPUT CAPACITANCE (CISS@VDS)" "1050pF@24V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "REVERSE TRANSFER CAPACITANCE (CRSS@VDS)" "77pF@15V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "OPERATING TEMPERATURE" "-55℃~+150℃"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400_1_0"
+				(polyline
+					(pts
+						(xy -3.048 2.286) (xy -3.048 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.508) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.694 0.569) (xy 3.32 0.569)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.016 -0.508) (xy -1.016 -0.508) (xy -1.016 0.508) (xy -1.016 0.508) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.508) (xy 1.778 -0.762) (xy 1.778 -0.762) (xy 3.302 -0.762) (xy 3.302 -0.762) (xy 2.54 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0) (xy 0 0) (xy 0 -2.54) (xy 0 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.778) (xy 0 1.778) (xy 0 1.778) (xy 0 2.54) (xy 0 2.54) (xy 2.54 2.54) (xy 2.54 2.54)
+						(xy 2.54 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.032)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -4043,16 +4636,40 @@
 		(uuid "744045f6-fb6d-41a3-8037-09cdfbe79c03")
 	)
 	(junction
+		(at 130.81 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b01b8e0-f9d8-43dc-8a02-723ec8721c0f")
+	)
+	(junction
 		(at 93.98 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84cb151e-cddc-4467-a05c-6ea22af485d9")
 	)
 	(junction
+		(at 135.89 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8798f946-c437-419c-b59b-cadfda432f45")
+	)
+	(junction
+		(at 130.81 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3eaf16b-d070-4e97-ba60-0659fcbee067")
+	)
+	(junction
 		(at 63.5 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a63aa971-d98c-4697-9e26-dd66dc226a3e")
+	)
+	(junction
+		(at 213.36 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b471faa7-291a-4a40-94a3-6c9ca5415a9c")
 	)
 	(junction
 		(at 93.98 146.05)
@@ -4071,6 +4688,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc86f5bf-761b-4afd-b6dd-65ba54754807")
+	)
+	(junction
+		(at 193.04 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcc7203c-5590-4f4d-9435-b36aa64bf47d")
 	)
 	(no_connect
 		(at 93.98 171.45)
@@ -4127,6 +4750,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bb883c-4bc3-4a40-8922-2cfa08947435")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0546e59b-60ee-4b69-96c0-cb1a19cc5e1b")
+	)
+	(wire
+		(pts
 			(xy 93.98 115.57) (xy 93.98 120.65)
 		)
 		(stroke
@@ -4134,6 +4777,26 @@
 			(type default)
 		)
 		(uuid "056e9306-ec36-4bee-93c7-a5dbf678f216")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060d4171-dc11-4ed8-a0db-2d51dd41cb7b")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 142.24 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084a1d0e-ab2a-4a40-aa72-c36bc326fb27")
 	)
 	(wire
 		(pts
@@ -4157,6 +4820,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 91.44) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11367df5-b57d-487a-a528-2fd3a5c8e739")
+	)
+	(wire
+		(pts
 			(xy 93.98 146.05) (xy 93.98 151.13)
 		)
 		(stroke
@@ -4177,6 +4850,76 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 88.9) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36035c3c-b065-49ce-8da7-f7957c1eadd6")
+	)
+	(wire
+		(pts
+			(xy 207.01 86.36) (xy 213.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a375d04-d41e-4da4-b973-3a7a43d370c2")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d836a51-2dd8-4b9a-ade4-21d8ba34f811")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a79d10-a9c8-4960-be89-30c536cf5eaa")
+	)
+	(wire
+		(pts
+			(xy 182.88 88.9) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49eee235-e8bd-4d9b-8558-4c1aad5db9aa")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba93822-518c-4ea4-9e34-7fb28983539d")
+	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f60a130-e867-43a7-85f0-b41c48cb0d82")
+	)
+	(wire
+		(pts
 			(xy 93.98 161.29) (xy 93.98 156.21)
 		)
 		(stroke
@@ -4194,6 +4937,16 @@
 			(type default)
 		)
 		(uuid "53d68278-76b8-4b36-a869-dcedc6f4e62d")
+	)
+	(wire
+		(pts
+			(xy 135.89 76.2) (xy 135.89 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b462c8c-f769-4113-a701-2d0387d76581")
 	)
 	(wire
 		(pts
@@ -4277,6 +5030,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8406dd61-f27a-4850-8c76-8a9520c556ba")
+	)
+	(wire
+		(pts
 			(xy 58.42 181.61) (xy 63.5 181.61)
 		)
 		(stroke
@@ -4357,6 +5120,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 86.36) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7bf4cab-e1e3-403a-a0f2-0d15eda4d47d")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9f57a7-a548-48cd-ac38-fd4a476f7699")
+	)
+	(wire
+		(pts
 			(xy 265.43 105.41) (xy 266.7 105.41)
 		)
 		(stroke
@@ -4377,6 +5160,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 99.06) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc7793e-20f4-4d85-9a51-491ce129ce2a")
+	)
+	(wire
+		(pts
 			(xy 99.06 161.29) (xy 93.98 161.29)
 		)
 		(stroke
@@ -4384,6 +5177,26 @@
 			(type default)
 		)
 		(uuid "c11d3ec0-0489-467f-9f27-758d5371a43f")
+	)
+	(wire
+		(pts
+			(xy 187.96 101.6) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22b67cf-ab64-4bf6-9181-7cfb3a32625a")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 198.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4354808-1a02-43da-9d80-d40a183071d5")
 	)
 	(wire
 		(pts
@@ -4397,6 +5210,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 86.36) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d735d1dc-2113-4172-b41d-ada0ecd3f308")
+	)
+	(wire
+		(pts
 			(xy 93.98 95.25) (xy 93.98 100.33)
 		)
 		(stroke
@@ -4404,6 +5227,36 @@
 			(type default)
 		)
 		(uuid "db5f2484-0ad8-44b0-99ed-6107c1c07c59")
+	)
+	(wire
+		(pts
+			(xy 213.36 101.6) (xy 219.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff6269e-089f-418e-8874-3087f66a54db")
+	)
+	(wire
+		(pts
+			(xy 130.81 97.79) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a982f8-4681-4643-b47f-5f9eef25c6da")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2cf52a4-97cb-4f01-968c-a8da3470d881")
 	)
 	(wire
 		(pts
@@ -4424,6 +5277,16 @@
 			(type default)
 		)
 		(uuid "e90d9243-d948-4ee1-8c21-e6a0625b9358")
+	)
+	(wire
+		(pts
+			(xy 208.28 101.6) (xy 213.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb84b5bb-c2da-43ee-b7b5-81fb840aeadc")
 	)
 	(wire
 		(pts
@@ -4457,6 +5320,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 101.6) (xy 213.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd23fd86-8727-4df0-b4fa-b694a7ebd5d3")
+	)
+	(wire
+		(pts
 			(xy 99.06 181.61) (xy 93.98 181.61)
 		)
 		(stroke
@@ -4467,7 +5340,7 @@
 	)
 	(text "2S Protection"
 		(exclude_from_sim no)
-		(at 168.91 72.644 0)
+		(at 149.606 73.152 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4542,6 +5415,50 @@
 		)
 		(uuid "fa98f45a-9434-492c-868b-a85b9e2e1d6a")
 	)
+	(global_label "B_GND"
+		(shape input)
+		(at 135.89 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "094e1190-6faa-4c7c-97d7-1365b63ffb50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.7967 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOAD_GND"
+		(shape input)
+		(at 219.71 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20813657-8de1-4603-bad2-a1057130ddae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.2505 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANN"
 		(shape input)
 		(at 35.56 101.6 0)
@@ -4560,6 +5477,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+4.2V"
+		(shape input)
+		(at 119.38 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e0274fe-d50f-4c88-b763-400196b9c0e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4608,6 +5547,28 @@
 			)
 		)
 	)
+	(global_label "+8.4V"
+		(shape input)
+		(at 109.22 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afdee118-fa46-4b7a-8075-02cac7c050e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANP"
 		(shape input)
 		(at 35.56 99.06 0)
@@ -4626,6 +5587,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B_GND"
+		(shape input)
+		(at 130.81 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce1c4ffc-4a21-488f-8628-9e0233e748d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.7167 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5028,6 +6011,181 @@
 			(project "sensors"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1327bfdd-32e7-45c2-a099-9b874b61e5d0")
+		(property "Reference" "R5"
+			(at 203.2 81.1022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 203.2 83.4136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 203.2 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "1k ohm"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b899170-f05c-4941-a8eb-92194fb432ec")
+		)
+		(pin "2"
+			(uuid "bfd68cb3-da6c-4fd4-9662-3aff2c5bf869")
+		)
+		(instances
+			(project "power"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6497,6 +7655,288 @@
 		)
 	)
 	(symbol
+		(lib_id "powermodule:AO3400")
+		(at 203.2 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "849ac867-1bf5-40a6-8941-02b184c0aa28")
+		(property "Reference" "Q1"
+			(at 203.2 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 203.2 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231109/50AB4FB4D66E55864F9B8D027B723C9A.pdf"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SYMBOL" "AO3400A_C347475"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DEVICE" "AO3400A_C347475"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "1个N沟道 耐压:30V 电流:5.8A"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" "C347475"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "UMW(友台半导体)"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" "AO3400A"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER FOOTPRINT" "SOT-23"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PART CLASS" "Extended Part"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "LCSC"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ADD INTO BOM" "yes"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONVERT TO PCB" "yes"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "1 N-Channel"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DRAIN SOURCE VOLTAGE (VDSS)" ""
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTINUOUS DRAIN CURRENT (ID)" ""
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DRAIN SOURCE ON RESISTANCE (RDS(ON)@VGS,ID)" "28mΩ@10V,5.8A"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "POWER DISSIPATION (PD)" ""
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GATE THRESHOLD VOLTAGE (VGS(TH)@ID)" "1.4V@250uA"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOTAL GATE CHARGE (QG@VGS)" "12nC@10V"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "INPUT CAPACITANCE (CISS@VDS)" "1050pF@24V"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REVERSE TRANSFER CAPACITANCE (CRSS@VDS)" "77pF@15V"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OPERATING TEMPERATURE" "-55℃~+150℃"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13242a8d-9663-47f6-a266-0b65844e16f8")
+		)
+		(pin "3"
+			(uuid "74809f43-d0fc-4c6f-947f-e41ce65a7e84")
+		)
+		(pin "1"
+			(uuid "ea405d08-858d-45be-b9d1-4abf38a1413d")
+		)
+		(instances
+			(project ""
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 107.95 50.8 0)
 		(unit 1)
@@ -6558,6 +7998,181 @@
 			(project ""
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a8b04f6-41e9-4716-a559-955b99e6437e")
+		(property "Reference" "R2"
+			(at 143.3322 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 145.6436 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 146.812 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "1k ohm"
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$0.0007"
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc169efe-94bc-456e-a854-11b5bfd6fb3e")
+		)
+		(pin "2"
+			(uuid "4a36ddf3-37bd-4eec-9498-1fada6ea8f5b")
+		)
+		(instances
+			(project "power"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6828,6 +8443,356 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 132.08 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a96118a-d420-4e86-89a1-4062363a4abd")
+		(property "Reference" "R1"
+			(at 126.8222 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 129.1336 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 130.302 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "1k ohm"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$0.0007"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c98af32d-8042-49d4-90bf-1be4f88d0747")
+		)
+		(pin "2"
+			(uuid "3a089e62-2fa6-4402-80cc-3a2bc4afbb37")
+		)
+		(instances
+			(project "power"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c63dd29-e894-47d8-9143-d92183bd8df3")
+		(property "Reference" "R7"
+			(at 125.73 84.0994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 125.73 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 125.73 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "470 ohm"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b79ad2a-e365-400c-8cdb-23e4dedbec3e")
+		)
+		(pin "2"
+			(uuid "2ea023fb-2044-4d8a-8c10-baa759d37787")
+		)
+		(instances
+			(project "power"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VAA")
 		(at 58.42 181.61 0)
 		(mirror y)
@@ -6888,6 +8853,535 @@
 			(project "powersim"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af38f185-91c6-4eca-a380-28881af619ce")
+		(property "Reference" "C1"
+			(at 133.731 92.8116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 133.731 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 131.7752 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "1uF Cap"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a398a1b-a43a-4f1a-94c6-e99b9825d118")
+		)
+		(pin "2"
+			(uuid "559b0d6a-2c1b-40df-bd1e-0e21dac45310")
+		)
+		(instances
+			(project "power"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b74ba7d0-fd58-429f-8c31-5f82712b6176")
+		(property "Reference" "C2"
+			(at 138.811 81.3816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 138.811 83.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 136.8552 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "1uF Cap"
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fca379e7-b242-44c3-90b9-3e47d28b3dc2")
+		)
+		(pin "2"
+			(uuid "afe9bb86-408c-4805-8a53-4fc9dd7cf96e")
+		)
+		(instances
+			(project "power"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbb89605-48f0-4765-b49b-f56aa6cbb202")
+		(property "Reference" "R6"
+			(at 118.11 94.1578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 118.11 91.8464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 118.11 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "470 ohm"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64196fb8-5d12-480a-b5d6-e84026c7032a")
+		)
+		(pin "2"
+			(uuid "cafc7336-034b-40d9-b61e-36361d46e453")
+		)
+		(instances
+			(project "power"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7305,7 +9799,7 @@
 	)
 	(symbol
 		(lib_id "powermodule:S-8252AAL-M6T1U")
-		(at 162.56 92.71 0)
+		(at 142.24 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7314,7 +9808,7 @@
 		(fields_autoplaced yes)
 		(uuid "d39c66e7-2d65-4687-b899-7b6bd0eeb6a8")
 		(property "Reference" "CR1"
-			(at 182.88 76.2 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7322,7 +9816,7 @@
 			)
 		)
 		(property "Value" "S-8252AAL-M6T1U"
-			(at 182.88 78.74 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7330,7 +9824,7 @@
 			)
 		)
 		(property "Footprint" "SOT23-6L_STM"
-			(at 203.2 91.44 0)
+			(at 182.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +9834,7 @@
 			)
 		)
 		(property "Datasheet" "STM6779YWB6F"
-			(at 203.2 91.44 0)
+			(at 182.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +9844,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 91.44 0)
+			(at 182.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,43 +10116,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 148.59 134.62 0)
+		(lib_id "powermodule:AO3400")
+		(at 182.88 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dade277c-d339-415e-bde1-61585b207446")
-		(property "Reference" "R2"
-			(at 143.256 133.604 0)
+		(fields_autoplaced yes)
+		(uuid "d8f94395-5dc0-4854-ab83-6cc689d78895")
+		(property "Reference" "Q2"
+			(at 182.88 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "150"
-			(at 143.256 135.89 0)
+		(property "Value" "AO3400A"
+			(at 182.88 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 146.812 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 134.62 0)
+		(property "Footprint" "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,8 +10150,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 148.59 134.62 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231109/50AB4FB4D66E55864F9B8D027B723C9A.pdf"
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,283 +10169,229 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/23535-0603WAF1500T5E/C22808"
-			(at 148.59 134.62 0)
+		(property "SYMBOL" "AO3400A_C347475"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22808"
-			(at 148.59 134.62 0)
+		(property "DEVICE" "AO3400A_C347475"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "basic?" "yes"
-			(at 148.59 134.62 0)
+		(property "LCSC PART NAME" "1个N沟道 耐压:30V 电流:5.8A"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "info" "150 ohm"
-			(at 148.59 134.62 0)
+		(property "SUPPLIER PART" "C347475"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "price" "C$0.0013 "
-			(at 148.59 134.62 0)
+		(property "MANUFACTURER" "UMW(友台半导体)"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "notes" ""
-			(at 148.59 134.62 0)
+		(property "MANUFACTURER PART" "AO3400A"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 148.59 134.62 0)
+		(property "SUPPLIER FOOTPRINT" "SOT-23"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 148.59 134.62 0)
+		(property "JLCPCB PART CLASS" "Extended Part"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 148.59 134.62 0)
+		(property "SUPPLIER" "LCSC"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 148.59 134.62 0)
+		(property "ADD INTO BOM" "yes"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 148.59 134.62 0)
+		(property "CONVERT TO PCB" "yes"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "487090ce-2cb0-4c36-8da9-582b386da04a")
-		)
-		(pin "1"
-			(uuid "af03432d-2107-45bd-a829-975a71aa2306")
-		)
-		(instances
-			(project "powersim"
-				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e005ae93-3ec4-4e0b-985b-2d3c5d05ce6a")
-		(property "Reference" "R1"
-			(at 126.746 133.604 0)
+		(property "TYPE" "1 N-Channel"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "150"
-			(at 126.746 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 130.302 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 132.08 134.62 0)
+		(property "DRAIN SOURCE VOLTAGE (VDSS)" ""
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 132.08 134.62 0)
+		(property "CONTINUOUS DRAIN CURRENT (ID)" ""
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/23535-0603WAF1500T5E/C22808"
-			(at 132.08 134.62 0)
+		(property "DRAIN SOURCE ON RESISTANCE (RDS(ON)@VGS,ID)" "28mΩ@10V,5.8A"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22808"
-			(at 132.08 134.62 0)
+		(property "POWER DISSIPATION (PD)" ""
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "basic?" "yes"
-			(at 132.08 134.62 0)
+		(property "GATE THRESHOLD VOLTAGE (VGS(TH)@ID)" "1.4V@250uA"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "info" "150 ohm"
-			(at 132.08 134.62 0)
+		(property "TOTAL GATE CHARGE (QG@VGS)" "12nC@10V"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "price" "C$0.0013 "
-			(at 132.08 134.62 0)
+		(property "INPUT CAPACITANCE (CISS@VDS)" "1050pF@24V"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "notes" ""
-			(at 132.08 134.62 0)
+		(property "REVERSE TRANSFER CAPACITANCE (CRSS@VDS)" "77pF@15V"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 132.08 134.62 0)
+		(property "OPERATING TEMPERATURE" "-55℃~+150℃"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "626dea53-619e-4ddf-9b8f-0173a394a442")
+			(uuid "edde5439-71ab-478b-80c6-d7fcfab4e271")
+		)
+		(pin "3"
+			(uuid "b81ab8e7-aed5-47dd-ae90-b78698e27521")
 		)
 		(pin "1"
-			(uuid "bc5237ce-7090-46cc-bc5c-c86e0cba22a4")
+			(uuid "179a0014-a28b-4343-87f3-2bde09c41f58")
 		)
 		(instances
-			(project "powersim"
+			(project "power"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
